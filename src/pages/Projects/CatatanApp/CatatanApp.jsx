@@ -8,21 +8,12 @@ const CatatanApp = () => {
       </div>
       <div className="max-w-[50%]">
         <p className="text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum odio
-          nulla dicta! Doloremque temporibus, in sapiente quasi cupiditate
-          eaque, error excepturi unde, officia deleniti eum nam maiores. Autem
-          vitae itaque error obcaecati velit commodi soluta! Laudantium
-          quisquam, accusamus, dolor eaque exercitationem, tempore facere
-          consectetur harum nobis deserunt praesentium? Nesciunt, error eum eius
-          beatae dolorem aut molestias quos debitis expedita vitae similique
-          possimus culpa consectetur illum mollitia consequuntur dignissimos.
-          Laudantium, repudiandae? Pariatur, optio illo. Tenetur quibusdam neque
-          aperiam odio fugit est sequi repellat beatae quam ipsum. Minus, earum
-          impedit sunt dolore deserunt provident. Nihil ex nulla exercitationem
-          iste quas, iusto doloremque.
+          Website ini dapat menambahkan, mengarsipkan dan menghapus catatan
+          pribadi. user juga bisa mencari catatan yang akan dibuka dengan tombol
+          pencarian yang ada di atas kanan.
         </p>
       </div>
-      <div className="w-full">
+      <div className="w-full mt-3">
         <div className="w-[250px] bg-white shadow-lg p-5">
           <img src={Gambar} alt="" className="w-[200px] h-[200px]" />
           <h2 className="text-lg font-semibold mb-2">Catatan App</h2>

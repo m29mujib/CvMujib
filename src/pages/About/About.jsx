@@ -5,6 +5,7 @@ import Phone from "../../assets/phone-call.png";
 import Instagram from "../../assets/instagram.png";
 import Placeholder from "../../assets/placeholder.png";
 import Linkedin from "../../assets/linkedin.png";
+import Github from "../../assets/github.png";
 const About = () => {
   return (
     <div className="w-full h-screen ml-[20%] px-10 py-10 flex flex-col relative justify-evenly">
@@ -53,19 +54,35 @@ const About = () => {
           </h1>
         </div>
         <div className="flex">
-          <a href="" className="mr-8 text-xs flex flex-col items-center">
-            <img src={Email} alt="" className="w-[30px] mb-2" />
-            Email
+          <a
+            href="https://github.com/m29mujib"
+            className="mr-8 text-xs flex flex-col items-center"
+            target="_blank"
+          >
+            <img src={Github} alt="" className="w-[30px] mb-2" />
+            Github
           </a>
-          <a href="" className="mr-8 text-xs flex flex-col items-center">
+          <a
+            href="https://www.instagram.com/muhamadamujib"
+            className="mr-8 text-xs flex flex-col items-center"
+            target="_blank"
+          >
             <img src={Instagram} alt="" className="w-[30px] mb-2" />
             Instagram
           </a>
-          <a href="" className="mr-8 text-xs flex flex-col items-center">
+          <a
+            href="https://www.linkedin.com/in/muhamadamujib"
+            className="mr-8 text-xs flex flex-col items-center"
+            target="_blank"
+          >
             <img src={Linkedin} alt="" className="w-[30px] mb-2" />
             Linkedin
           </a>
-          <a href="" className="mr-8 text-xs flex flex-col items-center">
+          <a
+            href="https://wa.me/082290401713"
+            className="mr-8 text-xs flex flex-col items-center"
+            target="_blank"
+          >
             <img src={Phone} alt="" className="w-[30px] mb-2" />
             Whatsapp
           </a>
