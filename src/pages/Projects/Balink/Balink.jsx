@@ -1,5 +1,5 @@
 import React from "react";
-import Gambar from "../../../assets/greenleaf.png";
+import Bali from "../../../assets/balink.png";
 const Balink = () => {
   return (
     <div className="w-full h-screen ml-[20%] px-10 py-10">
@@ -16,8 +16,8 @@ const Balink = () => {
         </p>
       </div>
       <div className="w-full mt-3">
-        <div className="w-[250px] bg-white shadow-lg p-5">
-          <img src={Gambar} alt="" className="w-[200px] h-[200px]" />
+        <div className="w-[250px] bg-white shadow-lg p-5 rounded-md">
+          <img src={Bali} alt="" className="w-[200px] h-[200px] rounded-md" />
           <h2 className="text-lg font-semibold mb-2">Balink</h2>
           <p className="text-xs mb-2">
             Website informasi tentang budaya tradisional bali

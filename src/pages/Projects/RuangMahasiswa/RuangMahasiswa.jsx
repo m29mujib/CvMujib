@@ -1,5 +1,5 @@
 import React from "react";
-import Gambar from "../../../assets/greenleaf.png";
+import Mhs from "../../../assets/ruangmhs.png";
 const RuangMahasiswa = () => {
   return (
     <div className="w-full h-screen ml-[20%] px-10 py-10">
@@ -15,8 +15,8 @@ const RuangMahasiswa = () => {
         </p>
       </div>
       <div className="w-full mt-3">
-        <div className="w-[250px] bg-white shadow-lg p-5">
-          <img src={Gambar} alt="" className="w-[200px] h-[200px]" />
+        <div className="w-[250px] bg-white shadow-lg p-5 rounded-md">
+          <img src={Mhs} alt="" className="w-[200px] h-[200px] rounded-md" />
           <h2 className="text-lg font-semibold mb-2">Ruang Mahasiswa</h2>
           <p className="text-xs mb-2">Website informasi tentang mahasiswa</p>
           <a
